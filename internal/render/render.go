@@ -3,9 +3,11 @@ package render
 import (
 	"bytes"
 	"fmt"
+
 	"github.com/justinas/nosurf"
-	"github.com/tsawler/bookings-app/internal/config"
-	"github.com/tsawler/bookings-app/internal/models"
+	"github.com/mjayashri/bookings-app/internal/config"
+	"github.com/mjayashri/bookings-app/internal/models"
+
 	"html/template"
 	"log"
 	"net/http"
